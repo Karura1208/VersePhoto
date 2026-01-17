@@ -462,7 +462,10 @@ function openModal(url, title) {
 // ハンバーガーメニューの開閉処理（既存）
 const btn = document.getElementById('js-hamburger');
 const nav = document.querySelector('.menu');
-btn.addEventListener('click', () => {
-  nav.classList.toggle('is-active');
-});
 
+// ボタンが存在する場合のみイベントを登録（安全策）
+if (btn) {
+    btn.addEventListener('click', () => {
+        nav.classList.toggle('is-active');
+    });
+}
