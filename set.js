@@ -34,6 +34,11 @@ async function initializeGapiClient() {
         });
         gapiInited = true;
         console.log("gapiの初期化が完了しました");
+
+        // 💡 追加：もしトークンが残っていれば自動で開始
+        if (gapi.client.getToken()) {
+            firstscript();
+        }
     });
 }
 
@@ -48,6 +53,13 @@ function initializeGsiClient() {
     });
     gsiInited = true;
     console.log("google(GSI)の初期化が完了しました");
+
+    // 💡 修正ポイント：すでにブラウザにセッションがあるか確認する
+    // これにより、リロードしても自動でデータ取得へ進めるようになります
+    const token = gapi.client.getToken();
+    if (token) {
+        firstscript();
+    }
 }
 
 // window.onload をこれに差し替え
