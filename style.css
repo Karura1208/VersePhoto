@@ -126,6 +126,8 @@ html {
     width: 18px;
     height: 18px;
     cursor: pointer;
+    margin-right: 5px;
+    transform: scale(1.2); /* スマホで押しやすいよう少し大きく */
 }
 
 /* ラベル（文字）の設定 */
@@ -158,7 +160,7 @@ html {
 .menu-series-logo,
 .menu-brand-logo {
     height: 30px; /* メニューに合わせた高さに調整 */
-    width: auto;
+    width: 60px;
     vertical-align: middle;
     cursor: pointer;
     border-radius: 4px;

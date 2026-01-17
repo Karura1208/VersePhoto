@@ -365,7 +365,7 @@ async function loadAllDriveImages() {
             files.forEach(file => {
                 // 💡 修正：uc?export=view ではなく thumbnail リンクを生成する
                 // =s1000 は画像サイズ（長辺最大1000px）の指定です
-                const displayUrl = `https://lh3.googleusercontent.com/u/0/d/${file.id}=s1000`;
+                const displayUrl = `https://lh3.googleusercontent.com/d/${file.id}`;
                 
                 const nameWithoutExt = file.name.replace(/\.[^/.]+$/, ""); 
                 driveCache.set(nameWithoutExt, displayUrl);
