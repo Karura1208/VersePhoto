@@ -132,34 +132,31 @@ html {
 }
 
 /* ラベル（文字）の設定 */
-/* .menu-checkbox-item label { */
-  /* font-size: 16px;         💡 すべて同じ大きさに固定 */
-  /* line-height: 1; */
-  /* cursor: pointer; */
-  /* white-space: nowrap;     💡 長い文字でも改行させず、一行で表示する */
-  /* text-align: left; */
-  /* font-family: "BIZ UDPGothic", sans-serif; */
-/* } */
+.menu-checkbox-item label {
+display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0px !important;       /* 💡 距離を0に（必要なら2px程度に） */
+    width: 100% !important;
+    font-family: "BIZ UDPGothic", sans-serif;
+}
 
 /* 画像付きチェックボックスの親要素 */
 .checkbox-item-img {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 2px;
-    width: auto;                /* 幅を自動にして広がりすぎを防ぐ */
-    margin-bottom: 5px;
-    padding: 5px;
-    transition: background 0.2s;
+display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0px !important;       /* 💡 距離を0に（必要なら2px程度に） */
+    width: 100% !important;
 }
 
 /* ラベル要素自体の幅を制限 */
 .checkbox-item-img label, .menu-checkbox-item label {
     display: flex !important;
     align-items: center !important;
-    gap: 2px !important;       /* 💡 ここで距離を 2px に固定 */
-    width: fit-content !important; /* 💡 余計な横幅を一切持たせない */
-    cursor: pointer;
+    width: auto !important;     /* 💡 ラベルが横に広がらないようにする */
+    margin: 0 !important;
+    padding-left: 0 !important; /* 💡 チェックボックスとの間の隙間を消す */
 }
 
 /* マウスを乗せた時に少し明るくする（選びやすくするため） */

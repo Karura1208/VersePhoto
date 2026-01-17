@@ -34,11 +34,6 @@ async function initializeGapiClient() {
         });
         gapiInited = true;
         console.log("gapiの初期化が完了しました");
-
-        // 💡 追加：もしトークンが残っていれば自動で開始
-        if (gapi.client.getToken()) {
-            firstscript();
-        }
     });
 }
 
@@ -47,15 +42,19 @@ function initializeGsiClient() {
         client_id: CLIENT_ID,
         scope: SCOPES,
         callback: async (resp) => {
-            if (resp.error !== undefined) throw (resp);
+            if (resp.error !== undefined) {
+                console.log("自動ログインに失敗しました（初回または期限切れ）");
+                return;
+            }
+            // 💡 ログイン（または自動再認証）に成功したらデータを読み込む
             firstscript(); 
         },
     });
     gsiInited = true;
     console.log("google(GSI)の初期化が完了しました");
 
-    // 💡 修正ポイント：ページ読み込み時に自動でトークンを要求する
-    // これにより、ログイン済みであればリロード後に勝手に firstscript が走ります
+    // 💡 重要：リロード時にユーザーに内緒でトークンを再要求する
+    // すでに一度許可していれば、これで firstscript() が走ります
     tokenClient.requestAccessToken({ prompt: 'none' });
 }
 
@@ -372,8 +371,7 @@ async function loadAllDriveImages() {
         const files = response.result.files;
         if (files) {
             files.forEach(file => {
-                // 💡 修正：uc?export=view ではなく thumbnail リンクを生成する
-                // =s1000 は画像サイズ（長辺最大1000px）の指定です
+                // 💡 ${file.id} を正しく使い、https かつ lh3... の形式にします
                 const displayUrl = `https://lh3.googleusercontent.com/d/${file.id}`;
                 
                 const nameWithoutExt = file.name.replace(/\.[^/.]+$/, ""); 
