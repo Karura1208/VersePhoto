@@ -131,14 +131,14 @@ html {
 }
 
 /* ラベル（文字）の設定 */
-.menu-checkbox-item label {
-  font-size: 16px;         /* 💡 すべて同じ大きさに固定 */
-  line-height: 1;
-  cursor: pointer;
-  white-space: nowrap;     /* 💡 長い文字でも改行させず、一行で表示する */
-  text-align: left;
-  font-family: "BIZ UDPGothic", sans-serif;
-}
+/* .menu-checkbox-item label { */
+  /* font-size: 16px;         💡 すべて同じ大きさに固定 */
+  /* line-height: 1; */
+  /* cursor: pointer; */
+  /* white-space: nowrap;     💡 長い文字でも改行させず、一行で表示する */
+  /* text-align: left; */
+  /* font-family: "BIZ UDPGothic", sans-serif; */
+/* } */
 
 /* 画像付きチェックボックスの親要素 */
 .checkbox-item-img {
@@ -159,7 +159,7 @@ html {
 /* ブランドロゴ画像のサイズ調整 */
 .menu-series-logo,
 .menu-brand-logo {
-    height: 30px; /* メニューに合わせた高さに調整 */
+    height: auto; /* メニューに合わせた高さに調整 */
     width: 60px;
     vertical-align: middle;
     cursor: pointer;
