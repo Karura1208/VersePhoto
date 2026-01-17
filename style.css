@@ -126,7 +126,7 @@ html {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    margin-right: 5px;
+    margin: 0;                  /* 💡デフォルトの余白をリセット */
     transform: scale(1.2); /* スマホで押しやすいよう少し大きく */
 }
 
@@ -144,10 +144,20 @@ html {
 .checkbox-item-img {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
+    justify-content: flex-start;
+    gap: 2px;
+    width: auto;                /* 幅を自動にして広がりすぎを防ぐ */
+    margin-bottom: 5px;
     padding: 5px;
     transition: background 0.2s;
+}
+
+/* ラベル要素自体の幅を制限 */
+.checkbox-item-img label, .menu-checkbox-item label {
+    display: flex;
+    align-items: center;
+    width: auto;                /* 💡ラベルが横に広がらないようにする */
+    cursor: pointer;
 }
 
 /* マウスを乗せた時に少し明るくする（選びやすくするため） */
@@ -161,9 +171,9 @@ html {
 .menu-brand-logo {
     height: auto; /* メニューに合わせた高さに調整 */
     width: 60px;
-    vertical-align: middle;
     cursor: pointer;
     border-radius: 4px;
+    display: block;             /* 余計な隙間を消す */
 }
 
 /*--------------------------------------------------------------------------------------------- */
