@@ -54,12 +54,9 @@ function initializeGsiClient() {
     gsiInited = true;
     console.log("google(GSI)の初期化が完了しました");
 
-    // 💡 修正ポイント：すでにブラウザにセッションがあるか確認する
-    // これにより、リロードしても自動でデータ取得へ進めるようになります
-    const token = gapi.client.getToken();
-    if (token) {
-        firstscript();
-    }
+    // 💡 修正ポイント：ページ読み込み時に自動でトークンを要求する
+    // これにより、ログイン済みであればリロード後に勝手に firstscript が走ります
+    tokenClient.requestAccessToken({ prompt: 'none' });
 }
 
 // window.onload をこれに差し替え
