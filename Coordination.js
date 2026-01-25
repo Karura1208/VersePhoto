@@ -12474,5 +12474,1187 @@ let item ={
     "accessary_id": "APR5-225",
     "accessary_image": "https://aipri.jp/verse/item/img/ring5/Item_ID32590.webp",
     "series": "プリマジ"
+  },
+  "プリマジチェックヘブンズホワイト": {
+    "name": "プリマジチェックヘブンズホワイト",
+    "total_image": "https://aipri.jp/verse/event/e240314/img/img_e240314-1.webp",
+    "brand_name": "プリティーコレクション",
+    "series": "アイプリ"
+  },
+  "ひみつのはつねミクコーデ": {
+    "name": "ひみつのはつねミクコーデ",
+    "total_image": "https://blog.piapro.net/wp-content/uploads/2024/06/c24060609.jpg",
+    "brand_name": "プリズムストーン",
+    "series": "アイプリ"
+  },
+  "アイプリバースフラワーマーチピンク": {
+    "name": "アイプリバースフラワーマーチピンク",
+    "total_image": "https://img.fril.jp/img/702312455/m/2336079670.jpg?1722640270",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フレッシュレモンパープル": {
+    "name": "フレッシュレモンパープル",
+    "total_image": "https://pbs.twimg.com/media/GRXg5KGasAAsWY9.jpg:large",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "カワイイあめちゃんポップ": {
+    "name": "カワイイあめちゃんポップ",
+    "total_image": "https://pbs.twimg.com/media/Gb1dxK4bAAAHXAW.jpg",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "リトルフェアリーパープル": {
+    "name": "リトルフェアリーパープル",
+    "total_image": "https://pbs.twimg.com/media/GhDovDBbQAAezjR.jpg",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フラワーマーチプリンセスバズリウムひみつ": {
+    "name": "フラワーマーチプリンセスバズリウムひみつ",
+    "total_image": "https://pbs.twimg.com/media/GuXsdOUbEAES7fS?format=jpg&name=medium",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フィーバーエンジェルパープル": {
+    "name": "フィーバーエンジェルパープル",
+    "total_image": "https://pbs.twimg.com/media/GzAWUilboAE0XKM?format=jpg&name=medium",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "マジシャンキャットイエロー": {
+    "name": "マジシャンキャットイエロー",
+    "total_image": "https://aipri.jp/card/img/special/P-062_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "エレガントジュエルピンク": {
+    "name": "エレガントジュエルピンク",
+    "total_image": "https://pbs.twimg.com/media/GcpkFDKasAAxS_q?format=jpg&name=medium",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "フラワーメモリーピンク": {
+    "name": "フラワーメモリーピンク",
+    "total_image": "https://pbs.twimg.com/media/GlkBwT8acAAlnPv.jpg",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "こあくまロックグリーンパープル": {
+    "name": "こあくまロックグリーンパープル",
+    "total_image": "https://pbs.twimg.com/media/GrDWu2UaAAM3Tlt.jpg",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "スペースバズリウムスターズメモリー": {
+    "name": "スペースバズリウムスターズメモリー",
+    "total_image": "https://pbs.twimg.com/media/G0pWMeEboAAvPDQ?format=jpg&name=medium",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ポッピンハートバズリウムミント": {
+    "name": "ポッピンハートバズリウムミント",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-001_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ぷるるんゼリーメロン": {
+    "name": "ぷるるんゼリーメロン",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-002_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ゴージャスビジューイエロー": {
+    "name": "ゴージャスビジューイエロー",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-005_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "アイプリバースミラクルムーングレー": {
+    "name": "アイプリバースミラクルムーングレー",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-008_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ハッピーチアシックブルー": {
+    "name": "ハッピーチアシックブルー",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-011_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "クールアイドルネイビーピンク": {
+    "name": "クールアイドルネイビーピンク",
+    "total_image": "https://aipri.jp/card/img/gumi/G1-013_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "ゴシックベアパープル": {
+    "name": "ゴシックベアパープル",
+    "total_image": "https://aipri.jp/card/img/gumi/G2-002_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "スターカウガールブラウン": {
+    "name": "スターカウガールブラウン",
+    "total_image": "https://aipri.jp/card/img/gumi/G2-006_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ハーバリウムピンク": {
+    "name": "ハーバリウムピンク",
+    "total_image": "https://aipri.jp/card/img/gumi/G2-011_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ゴシックベアブルー": {
+    "name": "ゴシックベアブルー",
+    "total_image": "https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/0000000292582_cvHTEFJ.jpg",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "ギフトリボン": {
+    "name": "ギフトリボン",
+    "total_image": "https://aipri.jp/card/img/gumi/G3-001_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "ギフトリボンゴールド": {
+    "name": "ギフトリボンゴールド",
+    "total_image": "https://item-shopping.c.yimg.jp/i/n/lead-netstore_222503s112i3t05",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "あめぽつぽつゆうやけオレンジ": {
+    "name": "あめぽつぽつゆうやけオレンジ",
+    "total_image": "https://aipri.jp/card/img/gumi/G3-006_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "パンキッシュペンギンレッド": {
+    "name": "パンキッシュペンギンレッド",
+    "total_image": "https://aipri.jp/card/img/gumi/G3-009_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "インフルブルームあじさいブルー": {
+    "name": "インフルブルームあじさいブルー",
+    "total_image": "https://aipri.jp/card/img/gumi/G4-001_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ジュエルバズリウムルビーイエロー": {
+    "name": "ジュエルバズリウムルビーイエロー",
+    "total_image": "https://aipri.jp/card/img/gumi/G4-005_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "うらないしピンク": {
+    "name": "うらないしピンク",
+    "total_image": "https://aipri.jp/card/img/gumi/G4-006_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "アイプリバースラブマイミュージックイエロー": {
+    "name": "アイプリバースラブマイミュージックイエロー",
+    "total_image": "https://aipri.jp/card/img/gumi/G4-008_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "アイスクリームオレンジ": {
+    "name": "アイスクリームオレンジ",
+    "total_image": "https://aipri.jp/card/img/gumi/G4-010_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "インフルブルームあじさいホワイト": {
+    "name": "インフルブルームあじさいホワイト",
+    "total_image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSWkIqK7Ij0UCL62gtsvhafxjqV7XzYiXp-wVLmsiHwe6NFSbfvBAWL-HgtidbFtxCwINWycxqZN7rPnwMlm6VXAP5-zklm3A",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ほしぞらのまほうつかいブルー": {
+    "name": "ほしぞらのまほうつかいブルー",
+    "total_image": "https://aipri.jp/card/img/gumi/G5-001_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "アニマルバズリウムパンサービビッド": {
+    "name": "アニマルバズリウムパンサービビッド",
+    "total_image": "https://aipri.jp/card/img/gumi/G5-005_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "アイプリバースロゼッションレッド": {
+    "name": "アイプリバースロゼッションレッド",
+    "total_image": "https://aipri.jp/card/img/gumi/G5-006_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "ハートメロディゴールドシルバー": {
+    "name": "ハートメロディゴールドシルバー",
+    "total_image": "https://aipri.jp/card/img/gumi/G5-009_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "ほしぞらのまほうつかいブラック": {
+    "name": "ほしぞらのまほうつかいブラック",
+    "total_image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSc3XOZjmATfD2r8bMMA204SfSEfQOxJfdLQ-__uGorBHt_9T4ut8eSxPq2AnzFNBH5uV9FMUvkL1gzniAnUXVkMnlfOkj17A",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "ゆきうさぎケープアイスブルー": {
+    "name": "ゆきうさぎケープアイスブルー",
+    "total_image": "https://aipri.jp/card/img/gumi/G6-001_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "スペースバズリウムギャラクシーレッド": {
+    "name": "スペースバズリウムギャラクシーレッド",
+    "total_image": "https://aipri.jp/card/img/gumi/G6-005_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "マジカルカラットゴールド": {
+    "name": "マジカルカラットゴールド",
+    "total_image": "https://aipri.jp/card/img/gumi/G6-006_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "ゆきうさぎケープミルキーピンク": {
+    "name": "ゆきうさぎケープミルキーピンク",
+    "total_image": "https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000034568_d8sm61H.jpg",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "スターパーティーミントベリー": {
+    "name": "スターパーティーミントベリー",
+    "total_image": "https://aipri.jp/card/img/special/P-004_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "スターメロディパッション": {
+    "name": "スターメロディパッション",
+    "total_image": "https://aipri.jp/card/img/special/P-005_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "リトルフェアリーブルー": {
+    "name": "リトルフェアリーブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-033_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ロマンスルージュピンク": {
+    "name": "ロマンスルージュピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-100_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "ぴょんぴょんうさぎ": {
+    "name": "ぴょんぴょんうさぎ",
+    "total_image": "https://aipri.jp/card/img/special/P-103_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "フラワーマーチプリンセスバズリウムピンク": {
+    "name": "フラワーマーチプリンセスバズリウムピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-096_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "スペースダイナーミント": {
+    "name": "スペースダイナーミント",
+    "total_image": "https://aipri.jp/card/img/special/P-140_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "スポーティバレエコアブルー": {
+    "name": "スポーティバレエコアブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-176_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "キューティーラビットレッド": {
+    "name": "キューティーラビットレッド",
+    "total_image": "https://aipri.jp/card/img/special/P-006_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "かわいいくまさんゆめかわ": {
+    "name": "かわいいくまさんゆめかわ",
+    "total_image": "https://aipri.jp/card/img/special/P-031_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "おしょうがつミント": {
+    "name": "おしょうがつミント",
+    "total_image": "https://aipri.jp/card/img/special/P-063_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ベリキューデニムラブパープル": {
+    "name": "ベリキューデニムラブパープル",
+    "total_image": "https://aipri.jp/card/img/special/P-102_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "アイドルチェッククールモカベージュ": {
+    "name": "アイドルチェッククールモカベージュ",
+    "total_image": "https://aipri.jp/card/img/special/P-139_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "アニマルロックピンク": {
+    "name": "アニマルロックピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-175_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "おとぎばなしシンデレラグリーン": {
+    "name": "おとぎばなしシンデレラグリーン",
+    "total_image": "https://aipri.jp/card/img/special/P-210_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "ひみつのクリスマスイエロー": {
+    "name": "ひみつのクリスマスイエロー",
+    "total_image": "https://aipri.jp/card/img/special/P-224_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "フラワーチュールオレンジブーケ": {
+    "name": "フラワーチュールオレンジブーケ",
+    "total_image": "https://aipri.jp/card/img/special/P-021_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ローズグランプリノーブルブルー": {
+    "name": "ローズグランプリノーブルブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-022_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "マーメイドグランプリパープル": {
+    "name": "マーメイドグランプリパープル",
+    "total_image": "https://aipri.jp/card/img/special/P-027_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ミルキーウェイピンク": {
+    "name": "ミルキーウェイピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-028_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フェザーグランプリクールピンク": {
+    "name": "フェザーグランプリクールピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-046_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "カワイイあめちゃんげんきオレンジ": {
+    "name": "カワイイあめちゃんげんきオレンジ",
+    "total_image": "https://aipri.jp/card/img/special/P-047_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "オーロラスノーグランプリプレミアム": {
+    "name": "オーロラスノーグランプリプレミアム",
+    "total_image": "https://aipri.jp/card/img/special/P-066_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "パンキッシュペンギンホワイト": {
+    "name": "パンキッシュペンギンホワイト",
+    "total_image": "https://aipri.jp/card/img/special/P-067_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "エターナルジュエルブルーピンク　じゅりあ": {
+    "name": "エターナルジュエルブルーピンク　じゅりあ",
+    "total_image": "https://aipri.jp/card/img/special/P-144_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "エターナルジュエルブルーピンク　える": {
+    "name": "エターナルジュエルブルーピンク　える",
+    "total_image": "https://aipri.jp/card/img/special/P-143_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "エターナルスペースジャンピンロケットラブリーパープル": {
+    "name": "エターナルスペースジャンピンロケットラブリーパープル",
+    "total_image": "https://aipri.jp/card/img/special/P-177_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "エターナルスペースジャンピンロケットクールレッド": {
+    "name": "エターナルスペースジャンピンロケットクールレッド",
+    "total_image": "https://aipri.jp/card/img/special/P-178_O.webp",
+    "brand_name": "フューチャースクール",
+    "series": "アイプリ"
+  },
+  "エターナルアニマルビビアンチィフローラ　ビビ": {
+    "name": "エターナルアニマルビビアンチィフローラ　ビビ",
+    "total_image": "https://aipri.jp/card/img/special/P-211_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "エターナルアニマルビビアンチィフローラ　チィ": {
+    "name": "エターナルアニマルビビアンチィフローラ　チィ",
+    "total_image": "https://aipri.jp/card/img/special/P-212_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "エターナルフラワールミナスフローラノーブル　リング": {
+    "name": "エターナルフラワールミナスフローラノーブル　リング",
+    "total_image": "https://aipri.jp/card/img/special/P-222_O.webp",
+    "brand_name": "プリンセスリング",
+    "series": "アイプリ"
+  },
+  "エターナルフラワールミナスフローラノーブル　つむぎ": {
+    "name": "エターナルフラワールミナスフローラノーブル　つむぎ",
+    "total_image": "https://aipri.jp/card/img/special/P-223_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "アイスブラウニークレープ": {
+    "name": "アイスブラウニークレープ",
+    "total_image": "https://aipri.jp/card/img/special/P-023_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "フラワーマーチバズリウムブルー": {
+    "name": "フラワーマーチバズリウムブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-073_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "バレンタインレターパープル": {
+    "name": "バレンタインレターパープル",
+    "total_image": "https://aipri.jp/card/img/special/P-090_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ドーナツパティシエールパープル": {
+    "name": "ドーナツパティシエールパープル",
+    "total_image": "https://aipri.jp/card/img/special/P-099_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "きらきらくらげレッド": {
+    "name": "きらきらくらげレッド",
+    "total_image": "https://aipri.jp/card/img/special/P-001_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ぴょんぴょんうさぎファンシー": {
+    "name": "ぴょんぴょんうさぎファンシー",
+    "total_image": "https://aipri.jp/card/img/special/P-107_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "プリうさおでかけブルー": {
+    "name": "プリうさおでかけブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-146_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ミラクルムーンバズリウムシークレットフレンズ∞": {
+    "name": "ミラクルムーンバズリウムシークレットフレンズ∞",
+    "total_image": "https://aipri.jp/card/img/special/P-145_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フラワーマーチバズリウムシークレットフレンズ∞": {
+    "name": "フラワーマーチバズリウムシークレットフレンズ∞",
+    "total_image": "https://aipri.jp/card/img/special/P-181_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "きらきらくらげオレンジ": {
+    "name": "きらきらくらげオレンジ",
+    "total_image": "https://aipri.jp/card/img/special/P-263_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "エターナルジュエルシークレットフレンズ∞": {
+    "name": "エターナルジュエルシークレットフレンズ∞",
+    "total_image": "https://aipri.jp/card/img/special/P-231_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フレッシュレモンミント": {
+    "name": "フレッシュレモンミント",
+    "total_image": "https://aipri.jp/card/img/special/P-024_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "おとぎばなししらゆきひめホワイト": {
+    "name": "おとぎばなししらゆきひめホワイト",
+    "total_image": "https://aipri.jp/card/img/special/P-068_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "おとぎばなしワンダーランドピンク": {
+    "name": "おとぎばなしワンダーランドピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-069_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "ポッピンハートバズリウムブルー": {
+    "name": "ポッピンハートバズリウムブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-042_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ミラクルムーンバズリウムピンク": {
+    "name": "ミラクルムーンバズリウムピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-043_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "カルテットスターバズリウムハートピンク": {
+    "name": "カルテットスターバズリウムハートピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-071_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "ポッピンハートバズリウムシークレットフレンズ∞": {
+    "name": "ポッピンハートバズリウムシークレットフレンズ∞",
+    "total_image": "https://aipri.jp/card/img/special/P-092_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "キューティーラビット": {
+    "name": "キューティーラビット",
+    "total_image": "https://aipri.jp/card/img/special/P-097_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "マジシャンキャット": {
+    "name": "マジシャンキャット",
+    "total_image": "https://aipri.jp/card/img/special/P-098_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "カラフルシャインレッド": {
+    "name": "カラフルシャインレッド",
+    "total_image": "https://aipri.jp/card/img/special/P-215_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フラワーバズリウムカンパニュラピンク": {
+    "name": "フラワーバズリウムカンパニュラピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-216_O.webp",
+    "brand_name": "プリンセスリング",
+    "series": "アイプリ"
+  },
+  "おとめざみつきブルー": {
+    "name": "おとめざみつきブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-227_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "カルテットレジェンドピンク": {
+    "name": "カルテットレジェンドピンク",
+    "total_image": "https://aipri.jp/card/img/special/P-228_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "メロディバズリウムアンサンブルミルキーブルー": {
+    "name": "メロディバズリウムアンサンブルミルキーブルー",
+    "total_image": "https://aipri.jp/card/img/special/P-229_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "わんわん アリ・リオ コーデ": {
+    "name": "わんわん アリ・リオ コーデ",
+    "total_image": "https://aipri.jp/card/img/special/P-142_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "プリンセスバズリウムハートイエロー": {
+    "name": "プリンセスバズリウムハートイエロー",
+    "total_image": "https://aipri.jp/card/img/special/P-269_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "レインボースカイ": {
+    "name": "レインボースカイ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-000_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "パティシエストロベリー": {
+    "name": "パティシエストロベリー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-001_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ギンガムチェックチェリー": {
+    "name": "ギンガムチェックチェリー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-002_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "スターリースカイ": {
+    "name": "スターリースカイ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-003_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "パティシエチョコミント": {
+    "name": "パティシエチョコミント",
+    "total_image": "https://aipri.jp/card/img/special/TOY-004_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ギンガムチェックグレープ": {
+    "name": "ギンガムチェックグレープ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-005_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "サニースカイ": {
+    "name": "サニースカイ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-022_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "パティシエはちみつパンケーキ": {
+    "name": "パティシエはちみつパンケーキ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-023_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ギンガムチェックレモン": {
+    "name": "ギンガムチェックレモン",
+    "total_image": "https://aipri.jp/card/img/special/TOY-024_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フレンドスターグランプリパステル": {
+    "name": "フレンドスターグランプリパステル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-055_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フラワーペイント": {
+    "name": "フラワーペイント",
+    "total_image": "https://aipri.jp/card/img/special/TOY-057_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "シャイニービジュー": {
+    "name": "シャイニービジュー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-060_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "フレンチチェックブルー": {
+    "name": "フレンチチェックブルー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-063_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ピンクジュエル": {
+    "name": "ピンクジュエル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-006_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ブルージュエル": {
+    "name": "ブルージュエル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-007_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "イエローグリーンジュエル": {
+    "name": "イエローグリーンジュエル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-025_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "アイプリバースフラワーマーチプリンセス": {
+    "name": "アイプリバースフラワーマーチプリンセス",
+    "total_image": "https://aipri.jp/card/img/special/TOY-051_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ファンタジーハート": {
+    "name": "ファンタジーハート",
+    "total_image": "https://aipri.jp/card/img/special/TOY-058_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ファンタジームーン": {
+    "name": "ファンタジームーン",
+    "total_image": "https://aipri.jp/card/img/special/TOY-059_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ファンタジーリング": {
+    "name": "ファンタジーリング",
+    "total_image": "https://aipri.jp/card/img/special/TOY-090_O.webp",
+    "brand_name": "プリンセスリング",
+    "series": "アイプリ"
+  },
+  "ラブリーコスメ": {
+    "name": "ラブリーコスメ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-010_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "クールコスメ": {
+    "name": "クールコスメ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-011_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "パッションコスメ": {
+    "name": "パッションコスメ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-027_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ネイルポリッシュラブリー": {
+    "name": "ネイルポリッシュラブリー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-008_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ネイルポリッシュクール": {
+    "name": "ネイルポリッシュクール",
+    "total_image": "https://aipri.jp/card/img/special/TOY-009_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ネイルポリッシュナチュラル": {
+    "name": "ネイルポリッシュナチュラル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-026_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "フォーチュンコスメタロット": {
+    "name": "フォーチュンコスメタロット",
+    "total_image": "https://aipri.jp/card/img/special/TOY-066_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "フラワーチュールローズ": {
+    "name": "フラワーチュールローズ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-012_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "フラワーチュールジャスミン": {
+    "name": "フラワーチュールジャスミン",
+    "total_image": "https://aipri.jp/card/img/special/TOY-013_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フラワーチュールすずらん": {
+    "name": "フラワーチュールすずらん",
+    "total_image": "https://aipri.jp/card/img/special/TOY-028_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "さわやかブルーシャボン": {
+    "name": "さわやかブルーシャボン",
+    "total_image": "https://aipri.jp/card/img/special/TOY-029_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "バタフライマジックキュート": {
+    "name": "バタフライマジックキュート",
+    "total_image": "https://aipri.jp/card/img/special/TOY-052_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "ウィンターパープルバタフライ": {
+    "name": "ウィンターパープルバタフライ",
+    "total_image": "https://aipri.jp/card/img/special/TOY-053_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "オーシャンコスメパープル": {
+    "name": "オーシャンコスメパープル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-030_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "シークレットフレンズ∞バズリウムパープル": {
+    "name": "シークレットフレンズ∞バズリウムパープル",
+    "total_image": "https://aipri.jp/card/img/special/TOY-039_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ウィンタースノー": {
+    "name": "ウィンタースノー",
+    "total_image": "https://aipri.jp/card/img/special/TOY-050_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "ゆめみるリカちゃんピンクドレス": {
+    "name": "ゆめみるリカちゃんピンクドレス",
+    "total_image": "https://aipri.jp/card/img/special/TOY-064_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ゆめみるリカちゃんブルードレス": {
+    "name": "ゆめみるリカちゃんブルードレス",
+    "total_image": "https://aipri.jp/card/img/special/TOY-065_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "プリうさムギちゃんぬいぐるみ": {
+    "name": "プリうさムギちゃんぬいぐるみ",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40103.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ひみつのアイプリぬいぐるみ　ひまり": {
+    "name": "ひみつのアイプリぬいぐるみ　ひまり",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40104.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ひみつのアイプリぬいぐるみ　みつき": {
+    "name": "ひみつのアイプリぬいぐるみ　みつき",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40105.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ひみつのアイプリぬいぐるみ　つむぎ": {
+    "name": "ひみつのアイプリぬいぐるみ　つむぎ",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40238.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "アイムゥマスコット　ひまり": {
+    "name": "アイムゥマスコット　ひまり",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40106.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "アイムゥマスコット　みつき": {
+    "name": "アイムゥマスコット　みつき",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40107.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "アイムゥマスコット　つむぎ": {
+    "name": "アイムゥマスコット　つむぎ",
+    "total_image": "https://aipri.jp/verse/item/img/special/Item_ID40239.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ゆめみるリカちゃんホワイトドレス": {
+    "name": "ゆめみるリカちゃんホワイトドレス",
+    "total_image": "https://aipri.jp/card/img/special/P-109_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "リカちゃんシャイニングブルードレス": {
+    "name": "リカちゃんシャイニングブルードレス",
+    "total_image": "https://aipri.jp/card/img/special/P-110_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "リカちゃんフラワードレス": {
+    "name": "リカちゃんフラワードレス",
+    "total_image": "https://aipri.jp/card/img/special/P-111_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "スプリングブロッサム": {
+    "name": "スプリングブロッサム",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-014_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "バタフライマジックブルー": {
+    "name": "バタフライマジックブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-016_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フラワーチュールスカーレット": {
+    "name": "フラワーチュールスカーレット",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-017_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "スターメロディマジカル": {
+    "name": "スターメロディマジカル",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-018_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ハニービービビッドピンク": {
+    "name": "ハニービービビッドピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-019_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ラブリーアイドルホワイトブルー": {
+    "name": "ラブリーアイドルホワイトブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-020_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "クールアイドルパープルブラック": {
+    "name": "クールアイドルパープルブラック",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-021_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "スプリングブルーバタフライ": {
+    "name": "スプリングブルーバタフライ",
+    "total_image": "https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/000000027035_k5tPWeb.jpg",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "にゃんにゃんロリータ": {
+    "name": "にゃんにゃんロリータ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-031_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ウェルカムチェリーグリーン": {
+    "name": "ウェルカムチェリーグリーン",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-033_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ぽんぽんすずらんブルー": {
+    "name": "ぽんぽんすずらんブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-034_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ことりメルヘンスカイ": {
+    "name": "ことりメルヘンスカイ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-035_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "ローズプリンスシック": {
+    "name": "ローズプリンスシック",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-036_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "ハッピーチアフレッシュ": {
+    "name": "ハッピーチアフレッシュ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-037_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ゴシックマリン": {
+    "name": "ゴシックマリン",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-038_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "わんわんロリータ": {
+    "name": "わんわんロリータ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-032_O.webp",
+    "brand_name": "フラワーマーチ",
+    "series": "アイプリ"
+  },
+  "おとぎばなしかぐやひめ": {
+    "name": "おとぎばなしかぐやひめ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-042_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "おとぎばなしシンデレラピンク": {
+    "name": "おとぎばなしシンデレラピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-043_O.webp",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "アイプリバーススカーレットバタフライラブピンク": {
+    "name": "アイプリバーススカーレットバタフライラブピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-045_O.webp",
+    "brand_name": "スプリングブルーバタフライ",
+    "series": "アイプリ"
+  },
+  "アイスクリームグレープ": {
+    "name": "アイスクリームグレープ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-046_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "ラブリーアイドルグリーンオレンジ": {
+    "name": "ラブリーアイドルグリーンオレンジ",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-047_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "セーラーカジュアルネイビーイエロー": {
+    "name": "セーラーカジュアルネイビーイエロー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-048_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "チューリップレトロブラウン": {
+    "name": "チューリップレトロブラウン",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-049_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "おとぎばなしあかずきんブルー": {
+    "name": "おとぎばなしあかずきんブルー",
+    "total_image": "https://makeshop-multi-images.akamaized.net/fullidol01/itemimages/0000000299732_Yhe8snC.jpg",
+    "brand_name": "クリスタルバース",
+    "series": "アイプリ"
+  },
+  "ロマンチックローズブルーム": {
+    "name": "ロマンチックローズブルーム",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-068_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ロマンチックリボンリボン": {
+    "name": "ロマンチックリボンリボン",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-069_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ベリキューデニムピンク": {
+    "name": "ベリキューデニムピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-070_O.webp",
+    "brand_name": "キューティーカラット",
+    "series": "アイプリ"
+  },
+  "アイプリバースミラクルムーンデニム": {
+    "name": "アイプリバースミラクルムーンデニム",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-071_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ふわもこかいじゅうミルキー": {
+    "name": "ふわもこかいじゅうミルキー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-072_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "ティーパーティーはるかぜイエロー": {
+    "name": "ティーパーティーはるかぜイエロー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-073_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "スターカウガールブルー": {
+    "name": "スターカウガールブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-074_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "パンキッシュペンギンパープル": {
+    "name": "パンキッシュペンギンパープル",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-075_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
+  },
+  "フルーツソーダブルーベリー": {
+    "name": "フルーツソーダブルーベリー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-082_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "フルーツソーダストロベリー": {
+    "name": "フルーツソーダストロベリー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-083_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "カラフルキャンディブルー": {
+    "name": "カラフルキャンディブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-084_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "ひまわりサマークール": {
+    "name": "ひまわりサマークール",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-085_O.webp",
+    "brand_name": "ポッピンハート",
+    "series": "アイプリ"
+  },
+  "ミルキーウェイブラックピンク": {
+    "name": "ミルキーウェイブラックピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-086_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "さわやかマリンパステル": {
+    "name": "さわやかマリンパステル",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-087_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "たいようさんさんイエロー": {
+    "name": "たいようさんさんイエロー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-088_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "たんけんかレッド": {
+    "name": "たんけんかレッド",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-089_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "クラシカルピュアドールクローバー": {
+    "name": "クラシカルピュアドールクローバー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-092_O.webp",
+    "brand_name": "プリンセスリング",
+    "series": "アイプリ"
+  },
+  "クラシカルピュアドール": {
+    "name": "クラシカルピュアドール",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-093_O.webp",
+    "brand_name": "プリンセスリング",
+    "series": "アイプリ"
+  },
+  "ゴーストハロウィンホワイト": {
+    "name": "ゴーストハロウィンホワイト",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-094_O.webp",
+    "brand_name": "スカーレットバタフライ",
+    "series": "アイプリ"
+  },
+  "あめぽつぽつあさやけピンク": {
+    "name": "あめぽつぽつあさやけピンク",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-095_O.webp",
+    "brand_name": "ミラクルムーン",
+    "series": "アイプリ"
+  },
+  "ウィンタースノーアイスブルー": {
+    "name": "ウィンタースノーアイスブルー",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-096_O.webp",
+    "brand_name": "ロゼッション",
+    "series": "アイプリ"
+  },
+  "ポッピンマーチサーカス": {
+    "name": "ポッピンマーチサーカス",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-097_O.webp",
+    "brand_name": "レインボーキャンディ",
+    "series": "アイプリ"
+  },
+  "クラシックヴァイオリンドリーム": {
+    "name": "クラシックヴァイオリンドリーム",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-098_O.webp",
+    "brand_name": "ベアベアベア",
+    "series": "アイプリ"
+  },
+  "いたずらモンスタービビッド": {
+    "name": "いたずらモンスタービビッド",
+    "total_image": "https://aipri.jp/card/img/millefeui/TOY-099_O.webp",
+    "brand_name": "ラブマイミュージック",
+    "series": "アイプリ"
   }
 }
