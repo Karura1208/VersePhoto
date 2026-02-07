@@ -316,12 +316,31 @@ display: flex !important;
 }
 
 /*--------------------------------------------------------------------------------------------- */
+
 #js-search-input {
-    width: 100%; /* */
-    padding: 10px; /* */
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box; /* */
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+    #js-search-input {
+        font-size: 1.2rem;
+        padding: 16px 12px;
+        min-height: 44px;
+        width: 100vw;
+        margin-left: -10vw;
+        max-width: 98vw;
+    }
+    .checkbox-item-img, .menu-checkbox-item, .checkbox-item-text {
+        min-height: 44px;
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        font-size: 1.1rem;
+    }
 }
 
 /* 検索ボタンを追加した場合のスタイル */
