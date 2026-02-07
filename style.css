@@ -142,12 +142,21 @@ display: flex !important;
 }
 
 /* 画像付きチェックボックスの親要素 */
+
 .checkbox-item-img {
-display: flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    gap: 0px !important;       /* 💡 距離を0に（必要なら2px程度に） */
-    width: 100% !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 4px !important; /* モバイルで少しだけ間隔 */
+        width: 100% !important;
+        padding: 4px 0;
+}
+
+@media (max-width: 600px) {
+    .checkbox-item-img {
+        gap: 2px !important;
+        padding: 2px 0;
+    }
 }
 
 /* ラベル要素自体の幅を制限 */
@@ -166,14 +175,23 @@ display: flex !important;
 }
 
 /* ブランドロゴ画像のサイズ調整 */
+
 .menu-brand-logo {
-    height: auto ; /* メニューに合わせた高さに調整 */
-    width: 150px;
-    cursor: pointer;
-    border-radius: 4px;
-    display: block;             /* 余計な隙間を消す */
-    margin: 0 !important;      /* 💡 画像自体の外余白を消す */
-    padding: 0 !important;
+        height: auto;
+        width: 120px;
+        max-width: 40vw;
+        cursor: pointer;
+        border-radius: 4px;
+        display: block;
+        margin: 0 !important;
+        padding: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .menu-brand-logo {
+        width: 70px;
+        max-width: 32vw;
+    }
 }
 
 /* ブランドロゴ画像のサイズ調整 */
@@ -223,9 +241,16 @@ display: flex !important;
 
 /* 開いている時のスタイル */
 .menu-scroll-container.is-open {
-    max-height: 300px;      /* ここで高さを制限（これ以上長くなるとスクロール） */
-    opacity: 1;
-    margin-top: 10px;
+        max-height: 300px;
+        opacity: 1;
+        margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .menu-scroll-container.is-open {
+        max-height: 180px;
+        margin-top: 4px;
+    }
 }
 
 /* スクロールバーを見やすくカスタマイズ（任意） */
