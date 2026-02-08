@@ -88,9 +88,9 @@ function get_return_from_python(response) {
 }
 
 // データの定義
-const brands = ["ポッピンハート", "ミラクルムーン", "スカーレットバタフライ","プリズムストーン","クリスタルバース","ロゼッション","フラワーマーチ",
-                "レインボーキャンディ","ベアベアベア","ラブマイミュージック","プリンセスリング","キューティーカラット","フューチャースクール"];
-const seriesList = ["オーロラドリーム","ディアマイフューチャー","レインボーライブ", "プリパラ","プリ☆チャン","プリマジ", "aipuri"]; 
+const brands = ["ポッピンハート", "ミラクルムーン", "スカーレットバタフライ","プリズムストーン","クリスタルバース","プリティーコレクション","ロゼッション","フラワーマーチ",
+                "レインボーキャンディ","ベアベアベア","ラブマイミュージック","プリンセスリング","キューティーカラット","フューチャースクール"]
+                const seriesList = ["オーロラドリーム","ディアマイフューチャー","レインボーライブ", "プリパラ","プリ☆チャン","プリマジ", "aipuri"]; 
 // const rarities = ["☆4", "☆3", "☆2", "スペシャル"];
 const navLinks = [
     { name: "アイテムリスト", url: "https://karura1208.github.io/AipriVerse/" }
@@ -169,10 +169,10 @@ function create_menu(){
         img.style.height = '48px';
 
         // 画像クリックでチェック状態を切り替え
-        img.addEventListener('click', () => {
-            checkbox.checked = !checkbox.checked;
-            checkbox.dispatchEvent(new Event('change'));
-        });
+        // img.addEventListener('click', () => {
+        //     checkbox.checked = !checkbox.checked;
+        //     checkbox.dispatchEvent(new Event('change'));
+        // });
 
         label.appendChild(checkbox);
         label.appendChild(img);
@@ -227,10 +227,10 @@ function create_menu(){
         img.style.height = 'auto';
 
         // 画像クリックでチェック状態を切り替え
-        img.addEventListener('click', () => {
-            checkbox.checked = !checkbox.checked;
-            checkbox.dispatchEvent(new Event('change'));
-        });
+        // img.addEventListener('click', () => {
+        //     checkbox.checked = !checkbox.checked;
+        //     checkbox.dispatchEvent(new Event('change'));
+        // });
 
         label.appendChild(checkbox);
         label.appendChild(img);
