@@ -110,12 +110,14 @@ function create_menu(){
     searchInput.type = 'text';
     searchInput.id = 'js-search-input';
     searchInput.placeholder = '検索...';
-    searchInput.style.flex = '1';
+    searchInput.style.width = '100%';
+    searchInput.style.boxSizing = 'border-box';
 
     const searchBtn = document.createElement('button');
     searchBtn.textContent = '🔍';
     searchBtn.style.width = '40px';
     searchBtn.style.cursor = 'pointer';
+    searchBtn.style.boxSizing = 'border-box';
 
     searchBtn.onclick = () => filter_and_display();
 
@@ -150,19 +152,27 @@ function create_menu(){
         label.style.gap = '4px';
         label.style.width = '100%';
 
+        // チェックボックスを非表示
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.name = 'brand';
         checkbox.value = brand;
         checkbox.id = `brand-${brand}`;
+        checkbox.style.display = 'none';
         checkbox.addEventListener('change', filter_and_display);
 
         const img = document.createElement('img');
         img.src = `brand/${brand}.webp`;
         img.alt = brand;
         img.className = 'menu-brand-logo';
-        img.style.maxWidth = '100px';
-        img.style.height = 'auto';
+        img.style.maxWidth = '160px';
+        img.style.height = '48px';
+
+        // 画像クリックでチェック状態を切り替え
+        img.addEventListener('click', () => {
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+        });
 
         label.appendChild(checkbox);
         label.appendChild(img);
@@ -189,26 +199,41 @@ function create_menu(){
     seriesList.forEach(series => {
         const li = document.createElement('li');
         li.className = 'menu-checkbox-item'; // レアリティと同じスタイルを流用
+        li.style.width = '100%';
+        li.style.boxSizing = 'border-box';
 
+        // チェックボックスを非表示
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.name = 'series'; // 💡 フィルタリング用に名前を分ける
         checkbox.value = series;
         checkbox.id = `series-${series}`;
-
-        // 💡 ブランドと同じイベントリスナーを追加
+        checkbox.style.display = 'none';
         checkbox.addEventListener('change', filter_and_display);
 
         // ラベルと画像を作成
         const label = document.createElement('label');
         label.htmlFor = `series-${series}`;
+        label.style.display = 'flex';
+        label.style.alignItems = 'center';
+        label.style.gap = '4px';
+        label.style.width = '100%';
+
         const img = document.createElement('img');
         img.src = `series/${series}.webp`;
         img.alt = series;
         img.className = 'menu-series-logo';
+        img.style.maxWidth = '100px';
+        img.style.height = 'auto';
 
+        // 画像クリックでチェック状態を切り替え
+        img.addEventListener('click', () => {
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+        });
+
+        label.appendChild(checkbox);
         label.appendChild(img);
-        li.appendChild(checkbox);
         li.appendChild(label);
         seriesContainer.appendChild(li);
     });

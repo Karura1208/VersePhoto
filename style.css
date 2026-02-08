@@ -107,9 +107,9 @@ html {
 
 #menu_list input, 
 #menu_list select {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box; /* 枠線を含めた幅にする */
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box; /* 枠線を含めた幅にする */
 }
 
 /*--------------------------------------------------------------------------------------------- */
