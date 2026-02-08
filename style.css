@@ -170,12 +170,25 @@ display: flex !important;
 
 /* ラベル要素自体の幅を制限 */
 .checkbox-item-img label, .menu-checkbox-item label {
-    display: flex !important;
+    display: block !important;
     align-items: center !important;
-    width: auto !important;     /* 💡 ラベルが横に広がらないようにする */
+    width: auto !important;
     margin: 0 !important;
-    padding-left: 0 !important; /* 💡 チェックボックスとの間の隙間を消す */
+    padding-left: 0 !important;
 }
+
+@media (max-width: 600px) {
+    .checkbox-item-img label, .menu-checkbox-item label {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        gap: 2px !important;
+        width: auto !important;
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
 
 /* マウスを乗せた時に少し明るくする（選びやすくするため） */
 .checkbox-item-img:hover {
