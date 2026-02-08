@@ -159,6 +159,17 @@ display: flex !important;
 
 @media (max-width: 600px) {
     .checkbox-item-img {
+        width: 100vw !important;
+        max-width: 100vw !important;
+        margin-left: -20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .checkbox-item-img {
         gap: 1px !important;
         padding: 1px 0;
         width: 100% !important;
@@ -213,6 +224,14 @@ display: flex !important;
 @media (max-width: 600px) {
     .menu-brand-logo {
         height: 24px;
+        max-width: 22vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .menu-brand-logo {
+        height: 24px;
         max-width: 48px;
     }
 }
@@ -228,6 +247,13 @@ display: flex !important;
     display: block;
     margin: 0 !important;
     padding: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .menu-series-logo {
+        height: 20px;
+        max-width: 18vw;
+    }
 }
 
 @media (max-width: 600px) {
