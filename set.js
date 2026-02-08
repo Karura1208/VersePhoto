@@ -139,28 +139,33 @@ function create_menu(){
     brands.forEach(brand => {
         const li = document.createElement('li');
         li.className = 'checkbox-item-img';
+        li.style.width = '100%';
+        li.style.boxSizing = 'border-box';
 
-        // 💡 1. チェックボックス要素を生成して変数に入れる
+        // ラベル内にチェックボックスと画像を横並びで配置
+        const label = document.createElement('label');
+        label.htmlFor = `brand-${brand}`;
+        label.style.display = 'flex';
+        label.style.alignItems = 'center';
+        label.style.gap = '4px';
+        label.style.width = '100%';
+
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.name = 'brand';
         checkbox.value = brand;
         checkbox.id = `brand-${brand}`;
-
-        // 💡 2. 変数「checkbox」に対してリスナーを追加
         checkbox.addEventListener('change', filter_and_display);
 
-        // ラベルと画像を作成
-        const label = document.createElement('label');
-        label.htmlFor = `brand-${brand}`;
         const img = document.createElement('img');
         img.src = `brand/${brand}.webp`;
         img.alt = brand;
         img.className = 'menu-brand-logo';
+        img.style.maxWidth = '100px';
+        img.style.height = 'auto';
 
-        // 組み立て
+        label.appendChild(checkbox);
         label.appendChild(img);
-        li.appendChild(checkbox);
         li.appendChild(label);
         brandContainer.appendChild(li);
     });
